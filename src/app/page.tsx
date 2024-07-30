@@ -48,6 +48,10 @@ export default function Home() {
     }
   };
 
+  function formatJSON(body: any): import("react").ReactNode {
+    throw new Error('Function not implemented.');
+  }
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-3">
       
